@@ -36,3 +36,17 @@ export const AbsoluteContainer = styled.div`
     right: ${({ right }) => right || 'auto'};
     left: ${({ left }) => left || 'auto'};
 `;
+
+export const Button = styled.button`
+    width: 150px;
+    text-transform: uppercase;
+    background-color: #6246ea;
+    color: #fffffe;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 15px 25px;
+    border-radius: 2px;
+    cursor: pointer;
+`;
